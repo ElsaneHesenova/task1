@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: black;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card{
+    background-color:rgba(93, 47, 4, 0.49);
+    width: 400px;
+    height: 300px;
+    padding: 30px 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+.ages{
+    display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.box{
+   position: relative;
+   align-items: center;
+   
+}
+
+   
+.box::before{
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+  
+
+}
+.box1{
+    width: 50px;
+    height: 150px;
+    background-color: brown;
+
+}
+.box2{
+    width: 50px;
+    height: 150px;
+    background-color: brown;
+   
+}
+.box3{
+    width: 50px;
+    height: 150px;
+    background-color: brown;
+
+}
+ .box4{
+    width: 50px;
+    height: 150px;
+    background-color: brown;
+  
+ }
+ .box5{
+    width: 50px;
+    height: 150px;
+    background-color: brown;
+  
+ }
